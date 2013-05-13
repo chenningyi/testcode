@@ -270,9 +270,14 @@ void TestFunction2()
   //cc.reset(NULL);
 }
 
+
+void Test_Reinterpre_cast();
+
 int _tmain(int argc, _TCHAR* argv[])
 {
-	TestFunction1();
+	Test_Reinterpre_cast();
+  
+  TestFunction1();
   TestFunction2();
   return 0;
 }
